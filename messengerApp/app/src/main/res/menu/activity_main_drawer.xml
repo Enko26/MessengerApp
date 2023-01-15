@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_SetGroup"
+            android:icon="@drawable/ic_groups"
+            android:title="Grup Oluştur" />
+        <item
+            android:id="@+id/nav_AddtoGroup"
+            android:icon="@drawable/ic_group_add"
+            android:title="Gruba Ekle" />
+        <item
+            android:id="@+id/nav_SetMessege"
+            android:icon="@drawable/ic_set_message"
+            android:title="Mesaj Oluştur" />
+        <item
+            android:id="@+id/nav_AddtoMessege"
+            android:icon="@drawable/ic_add_messege"
+            android:title="Mesaj Ekle" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Çıkış" />
+    </group>
+</menu>
